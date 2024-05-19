@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+section {
+    background-color: rgba(255,228,196,0.7);
+    border: brown 1px solid;
+    min-height: 350px;
+    min-width: 280px;
+    border-radius: 35px 35px 20px 20px;
+}
+
+h1 {
+    /*background-color: rgb(228, 175, 77);*/
+    background-color: rgb(254, 218, 174);
+    border: 3px brown solid;
+    color:black;
+    margin: 10px;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    min-height: 40px;
+    min-width: 220px;
+    margin: 15px 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: brown 0.5px solid;
+}
+
+button {
+    min-height: 40px;  
+    min-width: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    border: brown 2px solid;
+    cursor: pointer;
+    margin:5px;
+    /*background-color: rgb(254, 220, 180);*/
+    background-color: rgb(169, 64, 64);
+    color: ivory;
+}
+
+p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    cursor: pointer;
+    user-select: none;
+}
+
